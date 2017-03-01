@@ -1,0 +1,9 @@
+/* 
+  InfoPlist.strings
+  CocoaTest2
+
+  Created by user on 6/12/16.
+  Copyright © 2016 trendmicro. All rights reserved.
+*/
+CFBundleName = "Trend Micro Antivirus"; //Product name on about page/Menu bar "NewApplication" Name
+CFBundleDisplayName = "iTIS3";  //Localised .app name display on Finder / process name

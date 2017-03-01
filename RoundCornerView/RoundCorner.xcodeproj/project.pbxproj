@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE9D204C1DC839EB00182155 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9D204B1DC839EB00182155 /* AppDelegate.m */; };
+		CE9D204F1DC839EB00182155 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9D204E1DC839EB00182155 /* main.m */; };
+		CE9D20511DC839EB00182155 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE9D20501DC839EB00182155 /* Assets.xcassets */; };
+		CE9D20541DC839EB00182155 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE9D20521DC839EB00182155 /* MainMenu.xib */; };
+		CE9D205F1DC839EB00182155 /* RoundCornerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9D205E1DC839EB00182155 /* RoundCornerTests.m */; };
+		CE9D206A1DC839EB00182155 /* RoundCornerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9D20691DC839EB00182155 /* RoundCornerUITests.m */; };
+		CE9D20781DC83A5D00182155 /* XUIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE9D20771DC83A5D00182155 /* XUIKit.framework */; };
+		CE9D207B1DC83AA800182155 /* RoundCornerView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9D207A1DC83AA800182155 /* RoundCornerView.m */; };
+		CE9D207D1DC83BAB00182155 /* XUIKit.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = CE9D20771DC83A5D00182155 /* XUIKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE9D205B1DC839EB00182155 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE9D203F1DC839EB00182155 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE9D20461DC839EB00182155;
+			remoteInfo = RoundCorner;
+		};
+		CE9D20661DC839EB00182155 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE9D203F1DC839EB00182155 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE9D20461DC839EB00182155;
+			remoteInfo = RoundCorner;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CE9D207C1DC83BA200182155 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				CE9D207D1DC83BAB00182155 /* XUIKit.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CE9D20471DC839EB00182155 /* RoundCorner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoundCorner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE9D204A1DC839EB00182155 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CE9D204B1DC839EB00182155 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CE9D204E1DC839EB00182155 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE9D20501DC839EB00182155 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE9D20531DC839EB00182155 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		CE9D20551DC839EB00182155 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE9D205A1DC839EB00182155 /* RoundCornerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoundCornerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE9D205E1DC839EB00182155 /* RoundCornerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RoundCornerTests.m; sourceTree = "<group>"; };
+		CE9D20601DC839EB00182155 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE9D20651DC839EB00182155 /* RoundCornerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoundCornerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE9D20691DC839EB00182155 /* RoundCornerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RoundCornerUITests.m; sourceTree = "<group>"; };
+		CE9D206B1DC839EB00182155 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE9D20771DC83A5D00182155 /* XUIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = XUIKit.framework; sourceTree = "<group>"; };
+		CE9D20791DC83AA800182155 /* RoundCornerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundCornerView.h; sourceTree = "<group>"; };
+		CE9D207A1DC83AA800182155 /* RoundCornerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoundCornerView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE9D20441DC839EB00182155 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE9D20781DC83A5D00182155 /* XUIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE9D20571DC839EB00182155 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE9D20621DC839EB00182155 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE9D203E1DC839EB00182155 = {
+			isa = PBXGroup;
+			children = (
+				CE9D20491DC839EB00182155 /* RoundCorner */,
+				CE9D205D1DC839EB00182155 /* RoundCornerTests */,
+				CE9D20681DC839EB00182155 /* RoundCornerUITests */,
+				CE9D20481DC839EB00182155 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE9D20481DC839EB00182155 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE9D20471DC839EB00182155 /* RoundCorner.app */,
+				CE9D205A1DC839EB00182155 /* RoundCornerTests.xctest */,
+				CE9D20651DC839EB00182155 /* RoundCornerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE9D20491DC839EB00182155 /* RoundCorner */ = {
+			isa = PBXGroup;
+			children = (
+				CE9D20771DC83A5D00182155 /* XUIKit.framework */,
+				CE9D204A1DC839EB00182155 /* AppDelegate.h */,
+				CE9D204B1DC839EB00182155 /* AppDelegate.m */,
+				CE9D20791DC83AA800182155 /* RoundCornerView.h */,
+				CE9D207A1DC83AA800182155 /* RoundCornerView.m */,
+				CE9D20501DC839EB00182155 /* Assets.xcassets */,
+				CE9D20521DC839EB00182155 /* MainMenu.xib */,
+				CE9D20551DC839EB00182155 /* Info.plist */,
+				CE9D204D1DC839EB00182155 /* Supporting Files */,
+			);
+			path = RoundCorner;
+			sourceTree = "<group>";
+		};
+		CE9D204D1DC839EB00182155 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE9D204E1DC839EB00182155 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE9D205D1DC839EB00182155 /* RoundCornerTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE9D205E1DC839EB00182155 /* RoundCornerTests.m */,
+				CE9D20601DC839EB00182155 /* Info.plist */,
+			);
+			path = RoundCornerTests;
+			sourceTree = "<group>";
+		};
+		CE9D20681DC839EB00182155 /* RoundCornerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CE9D20691DC839EB00182155 /* RoundCornerUITests.m */,
+				CE9D206B1DC839EB00182155 /* Info.plist */,
+			);
+			path = RoundCornerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE9D20461DC839EB00182155 /* RoundCorner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE9D206E1DC839EB00182155 /* Build configuration list for PBXNativeTarget "RoundCorner" */;
+			buildPhases = (
+				CE9D20431DC839EB00182155 /* Sources */,
+				CE9D20441DC839EB00182155 /* Frameworks */,
+				CE9D20451DC839EB00182155 /* Resources */,
+				CE9D207C1DC83BA200182155 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RoundCorner;
+			productName = RoundCorner;
+			productReference = CE9D20471DC839EB00182155 /* RoundCorner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE9D20591DC839EB00182155 /* RoundCornerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE9D20711DC839EB00182155 /* Build configuration list for PBXNativeTarget "RoundCornerTests" */;
+			buildPhases = (
+				CE9D20561DC839EB00182155 /* Sources */,
+				CE9D20571DC839EB00182155 /* Frameworks */,
+				CE9D20581DC839EB00182155 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE9D205C1DC839EB00182155 /* PBXTargetDependency */,
+			);
+			name = RoundCornerTests;
+			productName = RoundCornerTests;
+			productReference = CE9D205A1DC839EB00182155 /* RoundCornerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CE9D20641DC839EB00182155 /* RoundCornerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE9D20741DC839EB00182155 /* Build configuration list for PBXNativeTarget "RoundCornerUITests" */;
+			buildPhases = (
+				CE9D20611DC839EB00182155 /* Sources */,
+				CE9D20621DC839EB00182155 /* Frameworks */,
+				CE9D20631DC839EB00182155 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE9D20671DC839EB00182155 /* PBXTargetDependency */,
+			);
+			name = RoundCornerUITests;
+			productName = RoundCornerUITests;
+			productReference = CE9D20651DC839EB00182155 /* RoundCornerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE9D203F1DC839EB00182155 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = trendmicro;
+				TargetAttributes = {
+					CE9D20461DC839EB00182155 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					CE9D20591DC839EB00182155 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = CE9D20461DC839EB00182155;
+					};
+					CE9D20641DC839EB00182155 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = CE9D20461DC839EB00182155;
+					};
+				};
+			};
+			buildConfigurationList = CE9D20421DC839EB00182155 /* Build configuration list for PBXProject "RoundCorner" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE9D203E1DC839EB00182155;
+			productRefGroup = CE9D20481DC839EB00182155 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE9D20461DC839EB00182155 /* RoundCorner */,
+				CE9D20591DC839EB00182155 /* RoundCornerTests */,
+				CE9D20641DC839EB00182155 /* RoundCornerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE9D20451DC839EB00182155 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE9D20511DC839EB00182155 /* Assets.xcassets in Resources */,
+				CE9D20541DC839EB00182155 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE9D20581DC839EB00182155 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE9D20631DC839EB00182155 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE9D20431DC839EB00182155 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE9D204F1DC839EB00182155 /* main.m in Sources */,
+				CE9D204C1DC839EB00182155 /* AppDelegate.m in Sources */,
+				CE9D207B1DC83AA800182155 /* RoundCornerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE9D20561DC839EB00182155 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE9D205F1DC839EB00182155 /* RoundCornerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE9D20611DC839EB00182155 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE9D206A1DC839EB00182155 /* RoundCornerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE9D205C1DC839EB00182155 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE9D20461DC839EB00182155 /* RoundCorner */;
+			targetProxy = CE9D205B1DC839EB00182155 /* PBXContainerItemProxy */;
+		};
+		CE9D20671DC839EB00182155 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE9D20461DC839EB00182155 /* RoundCorner */;
+			targetProxy = CE9D20661DC839EB00182155 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE9D20521DC839EB00182155 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE9D20531DC839EB00182155 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE9D206C1DC839EB00182155 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CE9D206D1DC839EB00182155 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CE9D206F1DC839EB00182155 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RoundCorner",
+				);
+				INFOPLIST_FILE = RoundCorner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.trendmicro.RoundCorner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CE9D20701DC839EB00182155 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RoundCorner",
+				);
+				INFOPLIST_FILE = RoundCorner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.trendmicro.RoundCorner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CE9D20721DC839EB00182155 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RoundCornerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.trendmicro.RoundCornerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RoundCorner.app/Contents/MacOS/RoundCorner";
+			};
+			name = Debug;
+		};
+		CE9D20731DC839EB00182155 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RoundCornerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.trendmicro.RoundCornerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RoundCorner.app/Contents/MacOS/RoundCorner";
+			};
+			name = Release;
+		};
+		CE9D20751DC839EB00182155 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RoundCornerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.trendmicro.RoundCornerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RoundCorner;
+			};
+			name = Debug;
+		};
+		CE9D20761DC839EB00182155 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RoundCornerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.trendmicro.RoundCornerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RoundCorner;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE9D20421DC839EB00182155 /* Build configuration list for PBXProject "RoundCorner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE9D206C1DC839EB00182155 /* Debug */,
+				CE9D206D1DC839EB00182155 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE9D206E1DC839EB00182155 /* Build configuration list for PBXNativeTarget "RoundCorner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE9D206F1DC839EB00182155 /* Debug */,
+				CE9D20701DC839EB00182155 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CE9D20711DC839EB00182155 /* Build configuration list for PBXNativeTarget "RoundCornerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE9D20721DC839EB00182155 /* Debug */,
+				CE9D20731DC839EB00182155 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CE9D20741DC839EB00182155 /* Build configuration list for PBXNativeTarget "RoundCornerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE9D20751DC839EB00182155 /* Debug */,
+				CE9D20761DC839EB00182155 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE9D203F1DC839EB00182155 /* Project object */;
+}

@@ -1,0 +1,852 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE711DB01B859FD20077DD5A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE711DAF1B859FD20077DD5A /* AppDelegate.m */; };
+		CE711DB21B859FD20077DD5A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE711DB11B859FD20077DD5A /* main.m */; };
+		CE711DB41B859FD20077DD5A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE711DB31B859FD20077DD5A /* Images.xcassets */; };
+		CE711DB71B859FD20077DD5A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE711DB51B859FD20077DD5A /* MainMenu.xib */; };
+		CE711DC31B859FD20077DD5A /* PluginLearningTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE711DC21B859FD20077DD5A /* PluginLearningTests.m */; };
+		CE711DD61B859FE80077DD5A /* PluginFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = CE711DD51B859FE80077DD5A /* PluginFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE711DDC1B859FE80077DD5A /* PluginFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE711DD11B859FE80077DD5A /* PluginFramework.framework */; };
+		CE711DE51B859FE80077DD5A /* PluginFrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE711DE41B859FE80077DD5A /* PluginFrameworkTests.m */; };
+		CE711DE81B859FE80077DD5A /* PluginFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE711DD11B859FE80077DD5A /* PluginFramework.framework */; };
+		CE711DE91B859FE80077DD5A /* PluginFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CE711DD11B859FE80077DD5A /* PluginFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CE711DF31B85A00D0077DD5A /* AbstractPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = CE711DF11B85A00D0077DD5A /* AbstractPlugin.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE711DF41B85A00D0077DD5A /* AbstractPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = CE711DF21B85A00D0077DD5A /* AbstractPlugin.m */; };
+		CE711E041B85A64A0077DD5A /* PluginOne.m in Sources */ = {isa = PBXBuildFile; fileRef = CE711E031B85A64A0077DD5A /* PluginOne.m */; };
+		CE711E051B85A9C70077DD5A /* PluginOne.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CE711DF91B85A25A0077DD5A /* PluginOne.bundle */; };
+		CE711E071B85AF5B0077DD5A /* PluginFramework.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = CE711DD11B859FE80077DD5A /* PluginFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CE711E0B1B85B6FA0077DD5A /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE711E0A1B85B6FA0077DD5A /* Media.xcassets */; };
+		CEC565871B85BAC10077C01F /* PluginOneMainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEC565861B85BAC10077C01F /* PluginOneMainWindow.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE711DBD1B859FD20077DD5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE711DA11B859FD20077DD5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE711DA81B859FD20077DD5A;
+			remoteInfo = PluginLearning;
+		};
+		CE711DDD1B859FE80077DD5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE711DA11B859FD20077DD5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE711DD01B859FE80077DD5A;
+			remoteInfo = PluginFramework;
+		};
+		CE711DDF1B859FE80077DD5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE711DA11B859FD20077DD5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE711DA81B859FD20077DD5A;
+			remoteInfo = PluginLearning;
+		};
+		CE711DE61B859FE80077DD5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE711DA11B859FD20077DD5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE711DD01B859FE80077DD5A;
+			remoteInfo = PluginFramework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CE711DED1B859FE80077DD5A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				CE711DE91B859FE80077DD5A /* PluginFramework.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		CE711E061B85AF530077DD5A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				CE711E071B85AF5B0077DD5A /* PluginFramework.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CE711DA91B859FD20077DD5A /* PluginLearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PluginLearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE711DAD1B859FD20077DD5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE711DAE1B859FD20077DD5A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CE711DAF1B859FD20077DD5A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CE711DB11B859FD20077DD5A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE711DB31B859FD20077DD5A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CE711DB61B859FD20077DD5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		CE711DBC1B859FD20077DD5A /* PluginLearningTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PluginLearningTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE711DC11B859FD20077DD5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE711DC21B859FD20077DD5A /* PluginLearningTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PluginLearningTests.m; sourceTree = "<group>"; };
+		CE711DD11B859FE80077DD5A /* PluginFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PluginFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE711DD41B859FE80077DD5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE711DD51B859FE80077DD5A /* PluginFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PluginFramework.h; sourceTree = "<group>"; };
+		CE711DDB1B859FE80077DD5A /* PluginFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PluginFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE711DE31B859FE80077DD5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE711DE41B859FE80077DD5A /* PluginFrameworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PluginFrameworkTests.m; sourceTree = "<group>"; };
+		CE711DF11B85A00D0077DD5A /* AbstractPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractPlugin.h; sourceTree = "<group>"; };
+		CE711DF21B85A00D0077DD5A /* AbstractPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractPlugin.m; sourceTree = "<group>"; };
+		CE711DF91B85A25A0077DD5A /* PluginOne.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PluginOne.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE711DFC1B85A25A0077DD5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE711E021B85A64A0077DD5A /* PluginOne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PluginOne.h; sourceTree = "<group>"; };
+		CE711E031B85A64A0077DD5A /* PluginOne.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PluginOne.m; sourceTree = "<group>"; };
+		CE711E0A1B85B6FA0077DD5A /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		CEC565861B85BAC10077C01F /* PluginOneMainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PluginOneMainWindow.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE711DA61B859FD20077DD5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE711DE81B859FE80077DD5A /* PluginFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE711DB91B859FD20077DD5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE711DCD1B859FE80077DD5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE711DD81B859FE80077DD5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE711DDC1B859FE80077DD5A /* PluginFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE711DF61B85A25A0077DD5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE711DA01B859FD20077DD5A = {
+			isa = PBXGroup;
+			children = (
+				CE711DAB1B859FD20077DD5A /* PluginLearning */,
+				CE711DBF1B859FD20077DD5A /* PluginLearningTests */,
+				CE711DD21B859FE80077DD5A /* PluginFramework */,
+				CE711DE11B859FE80077DD5A /* PluginFrameworkTests */,
+				CE711DFA1B85A25A0077DD5A /* PluginOne */,
+				CE711DAA1B859FD20077DD5A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE711DAA1B859FD20077DD5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE711DA91B859FD20077DD5A /* PluginLearning.app */,
+				CE711DBC1B859FD20077DD5A /* PluginLearningTests.xctest */,
+				CE711DD11B859FE80077DD5A /* PluginFramework.framework */,
+				CE711DDB1B859FE80077DD5A /* PluginFrameworkTests.xctest */,
+				CE711DF91B85A25A0077DD5A /* PluginOne.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE711DAB1B859FD20077DD5A /* PluginLearning */ = {
+			isa = PBXGroup;
+			children = (
+				CE711DAE1B859FD20077DD5A /* AppDelegate.h */,
+				CE711DAF1B859FD20077DD5A /* AppDelegate.m */,
+				CE711DB31B859FD20077DD5A /* Images.xcassets */,
+				CE711DB51B859FD20077DD5A /* MainMenu.xib */,
+				CE711DAC1B859FD20077DD5A /* Supporting Files */,
+			);
+			path = PluginLearning;
+			sourceTree = "<group>";
+		};
+		CE711DAC1B859FD20077DD5A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE711DAD1B859FD20077DD5A /* Info.plist */,
+				CE711DB11B859FD20077DD5A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE711DBF1B859FD20077DD5A /* PluginLearningTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE711DC21B859FD20077DD5A /* PluginLearningTests.m */,
+				CE711DC01B859FD20077DD5A /* Supporting Files */,
+			);
+			path = PluginLearningTests;
+			sourceTree = "<group>";
+		};
+		CE711DC01B859FD20077DD5A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE711DC11B859FD20077DD5A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE711DD21B859FE80077DD5A /* PluginFramework */ = {
+			isa = PBXGroup;
+			children = (
+				CE711DD51B859FE80077DD5A /* PluginFramework.h */,
+				CE711DD31B859FE80077DD5A /* Supporting Files */,
+				CE711DF11B85A00D0077DD5A /* AbstractPlugin.h */,
+				CE711DF21B85A00D0077DD5A /* AbstractPlugin.m */,
+			);
+			path = PluginFramework;
+			sourceTree = "<group>";
+		};
+		CE711DD31B859FE80077DD5A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE711DD41B859FE80077DD5A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE711DE11B859FE80077DD5A /* PluginFrameworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE711DE41B859FE80077DD5A /* PluginFrameworkTests.m */,
+				CE711DE21B859FE80077DD5A /* Supporting Files */,
+			);
+			path = PluginFrameworkTests;
+			sourceTree = "<group>";
+		};
+		CE711DE21B859FE80077DD5A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE711DE31B859FE80077DD5A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE711DFA1B85A25A0077DD5A /* PluginOne */ = {
+			isa = PBXGroup;
+			children = (
+				CE711DFB1B85A25A0077DD5A /* Supporting Files */,
+				CE711E021B85A64A0077DD5A /* PluginOne.h */,
+				CE711E031B85A64A0077DD5A /* PluginOne.m */,
+				CEC565861B85BAC10077C01F /* PluginOneMainWindow.xib */,
+			);
+			path = PluginOne;
+			sourceTree = "<group>";
+		};
+		CE711DFB1B85A25A0077DD5A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE711DFC1B85A25A0077DD5A /* Info.plist */,
+				CE711E0A1B85B6FA0077DD5A /* Media.xcassets */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		CE711DCE1B859FE80077DD5A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE711DD61B859FE80077DD5A /* PluginFramework.h in Headers */,
+				CE711DF31B85A00D0077DD5A /* AbstractPlugin.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		CE711DA81B859FD20077DD5A /* PluginLearning */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE711DC61B859FD20077DD5A /* Build configuration list for PBXNativeTarget "PluginLearning" */;
+			buildPhases = (
+				CE711DA51B859FD20077DD5A /* Sources */,
+				CE711DA61B859FD20077DD5A /* Frameworks */,
+				CE711DA71B859FD20077DD5A /* Resources */,
+				CE711DED1B859FE80077DD5A /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE711DE71B859FE80077DD5A /* PBXTargetDependency */,
+			);
+			name = PluginLearning;
+			productName = PluginLearning;
+			productReference = CE711DA91B859FD20077DD5A /* PluginLearning.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE711DBB1B859FD20077DD5A /* PluginLearningTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE711DC91B859FD20077DD5A /* Build configuration list for PBXNativeTarget "PluginLearningTests" */;
+			buildPhases = (
+				CE711DB81B859FD20077DD5A /* Sources */,
+				CE711DB91B859FD20077DD5A /* Frameworks */,
+				CE711DBA1B859FD20077DD5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE711DBE1B859FD20077DD5A /* PBXTargetDependency */,
+			);
+			name = PluginLearningTests;
+			productName = PluginLearningTests;
+			productReference = CE711DBC1B859FD20077DD5A /* PluginLearningTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CE711DD01B859FE80077DD5A /* PluginFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE711DEA1B859FE80077DD5A /* Build configuration list for PBXNativeTarget "PluginFramework" */;
+			buildPhases = (
+				CE711DCC1B859FE80077DD5A /* Sources */,
+				CE711DCD1B859FE80077DD5A /* Frameworks */,
+				CE711DCE1B859FE80077DD5A /* Headers */,
+				CE711DCF1B859FE80077DD5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PluginFramework;
+			productName = PluginFramework;
+			productReference = CE711DD11B859FE80077DD5A /* PluginFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CE711DDA1B859FE80077DD5A /* PluginFrameworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE711DEE1B859FE80077DD5A /* Build configuration list for PBXNativeTarget "PluginFrameworkTests" */;
+			buildPhases = (
+				CE711DD71B859FE80077DD5A /* Sources */,
+				CE711DD81B859FE80077DD5A /* Frameworks */,
+				CE711DD91B859FE80077DD5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE711DDE1B859FE80077DD5A /* PBXTargetDependency */,
+				CE711DE01B859FE80077DD5A /* PBXTargetDependency */,
+			);
+			name = PluginFrameworkTests;
+			productName = PluginFrameworkTests;
+			productReference = CE711DDB1B859FE80077DD5A /* PluginFrameworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CE711DF81B85A25A0077DD5A /* PluginOne */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE711DFD1B85A25A0077DD5A /* Build configuration list for PBXNativeTarget "PluginOne" */;
+			buildPhases = (
+				CE711DF51B85A25A0077DD5A /* Sources */,
+				CE711DF61B85A25A0077DD5A /* Frameworks */,
+				CE711DF71B85A25A0077DD5A /* Resources */,
+				CE711E061B85AF530077DD5A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PluginOne;
+			productName = PluginOne;
+			productReference = CE711DF91B85A25A0077DD5A /* PluginOne.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE711DA11B859FD20077DD5A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = user;
+				TargetAttributes = {
+					CE711DA81B859FD20077DD5A = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					CE711DBB1B859FD20077DD5A = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = CE711DA81B859FD20077DD5A;
+					};
+					CE711DD01B859FE80077DD5A = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					CE711DDA1B859FE80077DD5A = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = CE711DA81B859FD20077DD5A;
+					};
+					CE711DF81B85A25A0077DD5A = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = CE711DA41B859FD20077DD5A /* Build configuration list for PBXProject "PluginLearning" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE711DA01B859FD20077DD5A;
+			productRefGroup = CE711DAA1B859FD20077DD5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE711DA81B859FD20077DD5A /* PluginLearning */,
+				CE711DBB1B859FD20077DD5A /* PluginLearningTests */,
+				CE711DD01B859FE80077DD5A /* PluginFramework */,
+				CE711DDA1B859FE80077DD5A /* PluginFrameworkTests */,
+				CE711DF81B85A25A0077DD5A /* PluginOne */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE711DA71B859FD20077DD5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE711E051B85A9C70077DD5A /* PluginOne.bundle in Resources */,
+				CE711DB41B859FD20077DD5A /* Images.xcassets in Resources */,
+				CE711DB71B859FD20077DD5A /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE711DBA1B859FD20077DD5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE711DCF1B859FE80077DD5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE711DD91B859FE80077DD5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE711DF71B85A25A0077DD5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC565871B85BAC10077C01F /* PluginOneMainWindow.xib in Resources */,
+				CE711E0B1B85B6FA0077DD5A /* Media.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE711DA51B859FD20077DD5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE711DB21B859FD20077DD5A /* main.m in Sources */,
+				CE711DB01B859FD20077DD5A /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE711DB81B859FD20077DD5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE711DC31B859FD20077DD5A /* PluginLearningTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE711DCC1B859FE80077DD5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE711DF41B85A00D0077DD5A /* AbstractPlugin.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE711DD71B859FE80077DD5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE711DE51B859FE80077DD5A /* PluginFrameworkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE711DF51B85A25A0077DD5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE711E041B85A64A0077DD5A /* PluginOne.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE711DBE1B859FD20077DD5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE711DA81B859FD20077DD5A /* PluginLearning */;
+			targetProxy = CE711DBD1B859FD20077DD5A /* PBXContainerItemProxy */;
+		};
+		CE711DDE1B859FE80077DD5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE711DD01B859FE80077DD5A /* PluginFramework */;
+			targetProxy = CE711DDD1B859FE80077DD5A /* PBXContainerItemProxy */;
+		};
+		CE711DE01B859FE80077DD5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE711DA81B859FD20077DD5A /* PluginLearning */;
+			targetProxy = CE711DDF1B859FE80077DD5A /* PBXContainerItemProxy */;
+		};
+		CE711DE71B859FE80077DD5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE711DD01B859FE80077DD5A /* PluginFramework */;
+			targetProxy = CE711DE61B859FE80077DD5A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE711DB51B859FD20077DD5A /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE711DB61B859FD20077DD5A /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE711DC41B859FD20077DD5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CE711DC51B859FD20077DD5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CE711DC71B859FD20077DD5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PluginLearning/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CE711DC81B859FD20077DD5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PluginLearning/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CE711DCA1B859FD20077DD5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PluginLearningTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PluginLearning.app/Contents/MacOS/PluginLearning";
+			};
+			name = Debug;
+		};
+		CE711DCB1B859FD20077DD5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PluginLearningTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PluginLearning.app/Contents/MacOS/PluginLearning";
+			};
+			name = Release;
+		};
+		CE711DEB1B859FE80077DD5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PluginFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CE711DEC1B859FE80077DD5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = PluginFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CE711DEF1B859FE80077DD5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PluginFrameworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PluginLearning.app/Contents/MacOS/PluginLearning";
+			};
+			name = Debug;
+		};
+		CE711DF01B859FE80077DD5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PluginFrameworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PluginLearning.app/Contents/MacOS/PluginLearning";
+			};
+			name = Release;
+		};
+		CE711DFE1B85A25A0077DD5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PluginOne/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		CE711DFF1B85A25A0077DD5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PluginOne/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE711DA41B859FD20077DD5A /* Build configuration list for PBXProject "PluginLearning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE711DC41B859FD20077DD5A /* Debug */,
+				CE711DC51B859FD20077DD5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE711DC61B859FD20077DD5A /* Build configuration list for PBXNativeTarget "PluginLearning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE711DC71B859FD20077DD5A /* Debug */,
+				CE711DC81B859FD20077DD5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE711DC91B859FD20077DD5A /* Build configuration list for PBXNativeTarget "PluginLearningTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE711DCA1B859FD20077DD5A /* Debug */,
+				CE711DCB1B859FD20077DD5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE711DEA1B859FE80077DD5A /* Build configuration list for PBXNativeTarget "PluginFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE711DEB1B859FE80077DD5A /* Debug */,
+				CE711DEC1B859FE80077DD5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE711DEE1B859FE80077DD5A /* Build configuration list for PBXNativeTarget "PluginFrameworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE711DEF1B859FE80077DD5A /* Debug */,
+				CE711DF01B859FE80077DD5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE711DFD1B85A25A0077DD5A /* Build configuration list for PBXNativeTarget "PluginOne" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE711DFE1B85A25A0077DD5A /* Debug */,
+				CE711DFF1B85A25A0077DD5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE711DA11B859FD20077DD5A /* Project object */;
+}
