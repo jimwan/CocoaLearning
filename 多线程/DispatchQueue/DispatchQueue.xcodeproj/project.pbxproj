@@ -1,0 +1,290 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEACC0A01E7679A000A99DC6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEACC09F1E7679A000A99DC6 /* AppDelegate.m */; };
+		CEACC0A31E7679A000A99DC6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEACC0A21E7679A000A99DC6 /* main.m */; };
+		CEACC0A51E7679A000A99DC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEACC0A41E7679A000A99DC6 /* Assets.xcassets */; };
+		CEACC0A81E7679A000A99DC6 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEACC0A61E7679A000A99DC6 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CEACC09B1E7679A000A99DC6 /* DispatchQueue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DispatchQueue.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEACC09E1E7679A000A99DC6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CEACC09F1E7679A000A99DC6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CEACC0A21E7679A000A99DC6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CEACC0A41E7679A000A99DC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEACC0A71E7679A000A99DC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		CEACC0A91E7679A000A99DC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEACC0981E7679A000A99DC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEACC0921E7679A000A99DC6 = {
+			isa = PBXGroup;
+			children = (
+				CEACC09D1E7679A000A99DC6 /* DispatchQueue */,
+				CEACC09C1E7679A000A99DC6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEACC09C1E7679A000A99DC6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEACC09B1E7679A000A99DC6 /* DispatchQueue.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEACC09D1E7679A000A99DC6 /* DispatchQueue */ = {
+			isa = PBXGroup;
+			children = (
+				CEACC09E1E7679A000A99DC6 /* AppDelegate.h */,
+				CEACC09F1E7679A000A99DC6 /* AppDelegate.m */,
+				CEACC0A41E7679A000A99DC6 /* Assets.xcassets */,
+				CEACC0A61E7679A000A99DC6 /* MainMenu.xib */,
+				CEACC0A91E7679A000A99DC6 /* Info.plist */,
+				CEACC0A11E7679A000A99DC6 /* Supporting Files */,
+			);
+			path = DispatchQueue;
+			sourceTree = "<group>";
+		};
+		CEACC0A11E7679A000A99DC6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEACC0A21E7679A000A99DC6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEACC09A1E7679A000A99DC6 /* DispatchQueue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEACC0AC1E7679A000A99DC6 /* Build configuration list for PBXNativeTarget "DispatchQueue" */;
+			buildPhases = (
+				CEACC0971E7679A000A99DC6 /* Sources */,
+				CEACC0981E7679A000A99DC6 /* Frameworks */,
+				CEACC0991E7679A000A99DC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DispatchQueue;
+			productName = DispatchQueue;
+			productReference = CEACC09B1E7679A000A99DC6 /* DispatchQueue.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEACC0931E7679A000A99DC6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = trendmicro;
+				TargetAttributes = {
+					CEACC09A1E7679A000A99DC6 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = CEACC0961E7679A000A99DC6 /* Build configuration list for PBXProject "DispatchQueue" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEACC0921E7679A000A99DC6;
+			productRefGroup = CEACC09C1E7679A000A99DC6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEACC09A1E7679A000A99DC6 /* DispatchQueue */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEACC0991E7679A000A99DC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEACC0A51E7679A000A99DC6 /* Assets.xcassets in Resources */,
+				CEACC0A81E7679A000A99DC6 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEACC0971E7679A000A99DC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEACC0A31E7679A000A99DC6 /* main.m in Sources */,
+				CEACC0A01E7679A000A99DC6 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CEACC0A61E7679A000A99DC6 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEACC0A71E7679A000A99DC6 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEACC0AA1E7679A000A99DC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CEACC0AB1E7679A000A99DC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CEACC0AD1E7679A000A99DC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DispatchQueue/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.trendmicro.DispatchQueue;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CEACC0AE1E7679A000A99DC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DispatchQueue/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.trendmicro.DispatchQueue;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEACC0961E7679A000A99DC6 /* Build configuration list for PBXProject "DispatchQueue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEACC0AA1E7679A000A99DC6 /* Debug */,
+				CEACC0AB1E7679A000A99DC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEACC0AC1E7679A000A99DC6 /* Build configuration list for PBXNativeTarget "DispatchQueue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEACC0AD1E7679A000A99DC6 /* Debug */,
+				CEACC0AE1E7679A000A99DC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEACC0931E7679A000A99DC6 /* Project object */;
+}
