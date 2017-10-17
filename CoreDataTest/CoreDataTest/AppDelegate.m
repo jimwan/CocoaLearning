@@ -15,6 +15,7 @@
 @property (weak) IBOutlet NSWindow *window;
 
 @property (strong) NSManagedObjectContext *context;
+@property (strong) NSManagedObjectModel *model;
 
 - (IBAction)saveAction:(id)sender;
 
@@ -28,6 +29,8 @@
 //    AppDelegate *appDelegate = (AppDelegate *)[[NSApplication sharedApplication]delegate];
 //    _context = [appDelegate managedObjectContext];
     _context =  [self managedObjectContext];
+    _model = [self managedObjectModel];
+
 }
 
 - (void)applicationWillTerminate:(NSNotification *)aNotification {
@@ -40,8 +43,6 @@
     insertObj.name = @"jim";
     insertObj.age = @(18);
 
-//    [insertObj setValue:@(20) forKey:@"age"];
-//    [insertObj setValue:@"martin" forKey:@"name"];
     [_context save:nil];
 
 }

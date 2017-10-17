@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- (c) ammap.com | SVG map of Iceland - High -->
+
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:amcharts="http://amcharts.com/ammap" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+    <path d="m10 10 l200 0 l0 100  l-200 0 z" fill="none" stroke="lightblue" stroke-width="2" stroke-dasharray="10" stroke-dashoffset="0">
+</path>
+</svg>
